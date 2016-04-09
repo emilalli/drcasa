@@ -3,7 +3,18 @@
   <groupId>dds16</groupId>
   <artifactId>dds16</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <build>
+    
+<dependencies>
+
+      <dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+      </dependency>
+
+   </dependencies>
+
+<build>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
